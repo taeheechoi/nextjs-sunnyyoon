@@ -3,62 +3,58 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <nav className="flex justify-between items-center mb-8">
-        <div className="text-2xl font-bold">
-          <Link href="/">SUN HA YOON</Link>
-        </div>
-        <ul className="flex space-x-4">
-          <li>
-            <Link href="/about">About Me</Link>
-          </li>
-          <li>
-            <Link href="/education">Education</Link>
-          </li>
-          <li>
-            <Link href="/philosophy">Philosophy</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact Me</Link>
-          </li>
-        </ul>
-      </nav>
+    <div>
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
-      <div className="flex items-center mb-4">
+      <div className="flex flex-wrap items-center mb-4">
         <img
           src="/profile.png"
-          alt="Profile"
-          className="w-48 h-48 rounded-full mr-4"
+          alt="Profile Picture"
+          className="w-48 h-48 mr-8"
         />
-        <p>
-          With a deep passion for music and over a decade of experience as a
-          piano teacher, I am dedicated to guiding students on their musical
-          journey. I have had the privilege of working with students of all ages
-          and skill levels, fostering their growth and love for the piano.
-        </p>
+        <div className="p-justify">
+          Hi, I'm Sun Ha Yoon, a passionate pianist and experienced piano
+          teacher based in the Bay Area. With over 10 years of teaching
+          experience, I'm dedicated to helping students of all levels unlock
+          their musical potential and achieve their goals.
+        </div>
       </div>
-      <p className="mb-4">
-        My teaching approach is centered around creating a nurturing and
-        inspiring learning environment. I believe in building a strong
-        foundation of technique, musicality, and theory, while also encouraging
-        creativity and self-expression.
+      <p className="mb-4 p-justify">
+        I hold a Doctor of Musical Arts degree in Collaborative Piano from the
+        University of Maryland. My educational journey also includes a Master of
+        Music degree in Collaborative Piano from The Juilliard School and a
+        Bachelor of Music degree in Piano Performance from Seoul National
+        University.
       </p>
-      <p className="mb-4">
-        As a lifelong learner myself, I continuously seek opportunities to
-        expand my knowledge and skills. I hold [certifications/degrees] in piano
-        performance and education, and I regularly attend workshops and
-        conferences to stay updated with the latest pedagogical approaches.
+      <p className="mb-4 p-justify">
+        Throughout my career, I have had the privilege of working with
+        prestigious institutions and participating in notable performances. I
+        have served as a music staff member at Hawai’i Opera Theatre, Opera
+        Theatre Saint Louis, Opera San Jose, and Santa Clara Chamber Music. I
+        have also held positions as an opera and vocal coach at the San
+        Francisco Conservatory of Music and San Francisco Opera.
       </p>
-      <p className="mb-4">
-        I am committed to helping each student reach their full potential and
-        develop a lifelong love for music. Whether you're a beginner taking your
-        first steps or an advanced player looking to refine your skills, I'm
-        here to guide you every step of the way.
+      <p className="mb-4 p-justify">
+        In addition to my teaching and coaching experience, I have been
+        recognized for my talent and dedication. I was honored to be the Pianist
+        First Prize Winner of the Marilyn Horne Song Competition at the Music
+        Academy of the West. I have also received prestigious scholarships and
+        assistantships including the Robert McCoy Graduate Assistantship,
+        Henrietta Quade Scholarship, and William Petschek Piano Scholarship.
       </p>
-      <p>
-        Contact me today to schedule your first lesson and embark on your
-        musical journey!
+      <p className="mb-4 p-justify">
+        I am passionate about sharing my love for music and helping students
+        develop their technical skills, artistic expression, and musical
+        interpretation. My teaching approach is tailored to each student's
+        unique needs and goals, and I believe in creating a positive and
+        supportive learning environment.
       </p>
+      <p className="mb-4 p-justify">
+        If you're interested in taking piano lessons or have any questions,
+        please don't hesitate to contact me. I'm excited to embark on this
+        musical journey with you and help you discover the joy of playing the
+        piano.
+      </p>
+      <hr className="hr-dots my-8 w-full" />
     </div>
   );
 };

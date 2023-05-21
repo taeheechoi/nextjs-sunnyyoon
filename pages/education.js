@@ -1,28 +1,8 @@
 import React from "react";
-import Link from "next/link";
 
 const Education = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <nav className="flex justify-between items-center mb-12">
-        <div className="text-2xl font-bold">
-          <Link href="/">SUN HA YOON</Link>
-        </div>
-        <ul className="flex space-x-4">
-          <li>
-            <Link href="/about">About Me</Link>
-          </li>
-          <li>
-            <Link href="/education">Education</Link>
-          </li>
-          <li>
-            <Link href="/philosophy">Philosophy</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact Me</Link>
-          </li>
-        </ul>
-      </nav>
+    <div>
       <h1 className="text-3xl font-bold mb-4">Education</h1>
       <div className="mb-12">
         <div className="flex items-start mb-2">
@@ -31,7 +11,7 @@ const Education = () => {
             alt="University of Maryland"
             className="h-12 mr-4"
           />
-          <div className="flex flex-col  ml-auto">
+          <div className="flex flex-col ml-auto">
             <h2 className="text-xl font-bold">
               University of Maryland DMA, Collaborative Piano{" "}
             </h2>
@@ -40,11 +20,13 @@ const Education = () => {
             </p>
           </div>
         </div>
-        <p className="mt-3">
-          Completed a Doctor of Musical Arts degree with a focus on
-          Collaborative Piano. Developed expertise in accompanying and
-          collaborating with other musicians, honing skills in ensemble
-          performances and musical interpretation.
+        <p className="mb-4 p-justify">
+          Completed a Doctor of Musical Arts degree at the University of
+          Maryland, specializing in Collaborative Piano. During my time at the
+          university, I focused on developing expertise in accompanying and
+          collaborating with other musicians. This included honing skills in
+          ensemble performances and musical interpretation, allowing me to excel
+          as a collaborative pianist.
         </p>
       </div>
       <div className="mb-12">
@@ -54,7 +36,7 @@ const Education = () => {
             alt="The Juilliard School"
             className="h-12 mr-4"
           />
-          <div className="flex flex-col  ml-auto">
+          <div className="flex flex-col ml-auto">
             <h2 className="text-xl font-bold">
               The Juilliard School MM, Collaborative Piano{" "}
             </h2>
@@ -63,10 +45,12 @@ const Education = () => {
             </p>
           </div>
         </div>
-        <p className="mt-3">
-          Earned a Master of Music degree with a specialization in Collaborative
-          Piano. Received training and mentorship from world-class faculty and
-          had the opportunity to collaborate with talented artists.
+        <p className="mb-4 p-justify">
+          Earned a Master of Music degree in Collaborative Piano from The
+          Juilliard School. During my time at Juilliard, I received training and
+          mentorship from world-class faculty and had the opportunity to
+          collaborate with talented artists, further enhancing my skills as a
+          collaborative pianist.
         </p>
       </div>
       <div className="mb-12">
@@ -76,7 +60,7 @@ const Education = () => {
             alt="Seoul National University"
             className="h-12 mr-4"
           />
-          <div className="flex flex-col  ml-auto">
+          <div className="flex flex-col ml-auto">
             <h2 className="text-xl font-bold">
               Seoul National University BM, Piano Performance{" "}
             </h2>
@@ -85,12 +69,14 @@ const Education = () => {
             </p>
           </div>
         </div>
-        <p className="mt-3">
+        <p className="mb-4 p-justify">
           Obtained a Bachelor of Music degree with a concentration in Piano
-          Performance. Received comprehensive training in piano technique,
-          repertoire, and performance skills.
+          Performance from Seoul National University. Received comprehensive
+          training in piano technique, repertoire, and performance skills,
+          providing a strong foundation for my musical journey.
         </p>
       </div>
+      <hr className="hr-dots my-8 w-full" />
     </div>
   );
 };

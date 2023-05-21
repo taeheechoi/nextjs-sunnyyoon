@@ -29,17 +29,30 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color: var(--piano-black);
 }
 
 p {
   margin-bottom: 1rem;
   line-height: 1.5;
+}
+
+.p-justify {
+  text-align: justify;
+}
+
+.hr-dots {
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    #000066,
+    transparent
+  ); /* Replace #00008b with your desired dark blue color */
+  border: none;
 }
