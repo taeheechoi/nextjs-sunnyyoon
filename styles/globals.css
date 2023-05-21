@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-color: var(--piano-black);
+  --background-start-color: var(--piano-gray);
+  --background-end-color: var(--piano-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-color: var(--piano-white);
+    --background-start-color: var(--piano-black);
+    --background-end-color: var(--piano-black);
+  }
+}
+
+body {
+  color: var(--foreground-color);
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      var(--background-end-color)
+    )
+    var(--background-start-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--piano-black);
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
