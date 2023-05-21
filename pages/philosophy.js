@@ -86,7 +86,7 @@ const Philosophy = () => {
         my students towards becoming well-rounded, expressive, and accomplished
         pianists.
       </p>
-      <hr className="hr-dots my-8 w-full" />
+      <hr className="hr-dots-dashed my-4 w-full" />
     </div>
   );
 };

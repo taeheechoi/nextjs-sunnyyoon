@@ -4,20 +4,19 @@ import Link from "next/link";
 const About = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-4">About Me</h1>
-      <div className="flex flex-wrap items-center mb-4">
-        <img
-          src="/profile.png"
-          alt="Profile Picture"
-          className="w-48 h-48 mr-8"
-        />
-        <div className="p-justify">
-          Hi, I'm Sun Ha Yoon, a passionate pianist and experienced piano
-          teacher based in the Bay Area. With over 10 years of teaching
-          experience, I'm dedicated to helping students of all levels unlock
-          their musical potential and achieve their goals.
-        </div>
-      </div>
+      <h1 className="text-3xl mb-4">About Me</h1>
+      <img
+        src="/profile.png"
+        alt="Profile Picture"
+        className="w-48 h-48 mr-8 mb-3"
+      />
+      <p className="mb-4 p-justify">
+        Hi, I'm Sun Ha Yoon, a passionate pianist and experienced piano teacher
+        based in the Bay Area. With over 10 years of teaching experience, I'm
+        dedicated to helping students of all levels unlock their musical
+        potential and achieve their goals.
+      </p>
+
       <p className="mb-4 p-justify">
         I hold a Doctor of Musical Arts degree in Collaborative Piano from the
         University of Maryland. My educational journey also includes a Master of
@@ -54,7 +53,7 @@ const About = () => {
         musical journey with you and help you discover the joy of playing the
         piano.
       </p>
-      <hr className="hr-dots my-8 w-full" />
+      <hr className="hr-dots-dashed my-4 w-full" />
     </div>
   );
 };

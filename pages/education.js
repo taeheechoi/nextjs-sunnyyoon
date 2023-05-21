@@ -15,9 +15,7 @@ const Education = () => {
             <h2 className="text-xl font-bold">
               University of Maryland DMA, Collaborative Piano{" "}
             </h2>
-            <p className="text-gray-700 ml-auto">
-              Doctor of Musical Arts (2007-2011)
-            </p>
+            <p className="ml-auto">Doctor of Musical Arts (2007-2011)</p>
           </div>
         </div>
         <p className="mb-4 p-justify">
@@ -40,9 +38,7 @@ const Education = () => {
             <h2 className="text-xl font-bold">
               The Juilliard School MM, Collaborative Piano{" "}
             </h2>
-            <p className="text-gray-700 ml-auto">
-              Master of Music (Year - Year)
-            </p>
+            <p className="ml-auto">Master of Music (Year - Year)</p>
           </div>
         </div>
         <p className="mb-4 p-justify">
@@ -64,9 +60,7 @@ const Education = () => {
             <h2 className="text-xl font-bold">
               Seoul National University BM, Piano Performance{" "}
             </h2>
-            <p className="text-gray-700 ml-auto">
-              Bachelor of Music (Year - Year)
-            </p>
+            <p className="ml-auto">Bachelor of Music (Year - Year)</p>
           </div>
         </div>
         <p className="mb-4 p-justify">
@@ -76,7 +70,7 @@ const Education = () => {
           providing a strong foundation for my musical journey.
         </p>
       </div>
-      <hr className="hr-dots my-8 w-full" />
+      <hr className="hr-dots-dashed my-4 w-full" />
     </div>
   );
 };

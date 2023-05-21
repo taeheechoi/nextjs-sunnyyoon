@@ -3,27 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-color: var(--piano-black);
-  --background-start-color: var(--piano-gray);
-  --background-end-color: var(--piano-white);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-color: var(--piano-white);
-    --background-start-color: var(--piano-black);
-    --background-end-color: var(--piano-black);
-  }
+  --primary-color: #25476d;
+  --accent-color: #ffd700;
+  --neutral-color: #f8f8f8;
 }
 
 body {
-  color: var(--foreground-color);
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      var(--background-end-color)
-    )
-    var(--background-start-color);
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: var(--primary-color);
+  background-color: var(--neutral-color);
 }
 
 .container {
@@ -35,12 +24,25 @@ body {
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 p {
   margin-bottom: 1rem;
   line-height: 1.5;
+  color: var(--primary-color);
 }
 
 .p-justify {
@@ -48,11 +50,9 @@ p {
 }
 
 .hr-dots {
-  height: 3px;
-  background: linear-gradient(
-    to right,
-    #000066,
-    transparent
-  ); /* Replace #00008b with your desired dark blue color */
-  border: none;
+  background-color: var(--accent-color); /* Use a solid color for line break */
+}
+
+.hr-dots-dashed {
+  border-top: 1px dashed var(--accent-color); /* Use a dashed line for line break */
 }
