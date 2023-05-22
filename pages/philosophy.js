@@ -3,7 +3,8 @@ import React from "react";
 const Philosophy = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-4">Teaching Philosophy</h1>
+      <h1>Teaching Philosophy</h1>
+      <hr className="hr-dots w-full" />
       <p className="mb-4 p-justify">
         At Piano Professional, my mission is to provide exceptional piano
         education that empowers students to achieve their musical goals and
@@ -86,7 +87,7 @@ const Philosophy = () => {
         my students towards becoming well-rounded, expressive, and accomplished
         pianists.
       </p>
-      <hr className="hr-dots-dashed my-4 w-full" />
+      {/* <hr className="hr-dots-dashed my-4 w-full" /> */}
     </div>
   );
 };

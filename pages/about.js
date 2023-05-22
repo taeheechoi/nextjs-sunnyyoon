@@ -4,12 +4,19 @@ import Image from "next/image";
 const About = () => {
   return (
     <div>
-      <h1>About Me</h1>
+      {/* <h1>About Me</h1> */}
+
       <Image
         src="/profile.png"
         alt="Profile Picture"
         width={300}
         height={500}
+        style={{
+          border: "2px solid #ccc", // Add a border
+          borderRadius: "10px", // Add rounded corners
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", // Add a box shadow
+          // Add any other desired styles
+        }}
       />
       <p>
         Hi, I'm Sun Ha Yoon, a passionate pianist and experienced piano teacher
@@ -53,7 +60,7 @@ const About = () => {
         musical journey with you and help you discover the joy of playing the
         piano.
       </p>
-      <hr className="hr-dots-dashed my-4 w-full" />
+      {/* <hr className="hr-dots-dashed my-4 w-full" /> */}
     </div>
   );
 };

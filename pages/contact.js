@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <div>
       <h1>Contact Me</h1>
+      <hr className="hr-dots w-full" />
       <p>
         If you have any questions or would like to discuss your piano lessons,
         feel free to get in touch with me. I'm here to help!

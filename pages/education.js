@@ -5,6 +5,7 @@ const Education = () => {
   return (
     <div>
       <h1>Education</h1>
+      <hr className="hr-dots w-full" />
       <div className="mb-12">
         <div className="flex items-start">
           <Image
@@ -74,7 +75,7 @@ const Education = () => {
           providing a strong foundation for my musical journey.
         </p>
       </div>
-      <hr className="hr-dots-dashed my-4 w-full" />
+      {/* <hr className="hr-dots-dashed my-4 w-full" /> */}
     </div>
   );
 };

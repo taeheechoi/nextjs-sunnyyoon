@@ -4,15 +4,15 @@ import About from "./about";
 import Education from "./education";
 import Philosophy from "./philosophy";
 import Contact from "./contact";
-import Main from "./main";
+import NavBar from "./navbar";
 
 const Home = () => {
   return (
     <div className="container">
-      <Main />
-      <section id="about">
-        <About />
-      </section>
+      <NavBar />
+      {/* <section id="about"> */}
+      <About />
+      {/* </section> */}
       <section id="education">
         <Education />
       </section>
