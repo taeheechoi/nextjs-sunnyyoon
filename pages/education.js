@@ -1,24 +1,26 @@
+import Image from "next/image";
 import React from "react";
 
 const Education = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-4">Education</h1>
+      <h1>Education</h1>
       <div className="mb-12">
-        <div className="flex items-start mb-2">
-          <img
+        <div className="flex items-start">
+          <Image
             src="/university-of-maryland-logo.svg"
             alt="University of Maryland"
-            className="h-12 mr-4"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col ml-auto">
             <h2 className="text-xl font-bold">
-              University of Maryland DMA, Collaborative Piano{" "}
+              University of Maryland DMA, Collaborative Piano
             </h2>
-            <p className="ml-auto">Doctor of Musical Arts (2007-2011)</p>
+            <p className="ml-auto">Doctor of Musical Arts</p>
           </div>
         </div>
-        <p className="mb-4 p-justify">
+        <p>
           Completed a Doctor of Musical Arts degree at the University of
           Maryland, specializing in Collaborative Piano. During my time at the
           university, I focused on developing expertise in accompanying and
@@ -28,20 +30,21 @@ const Education = () => {
         </p>
       </div>
       <div className="mb-12">
-        <div className="flex items-start mb-2">
-          <img
+        <div className="flex items-start">
+          <Image
             src="/juilliard-school-logo.png"
             alt="The Juilliard School"
-            className="h-12 mr-4"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col ml-auto">
             <h2 className="text-xl font-bold">
-              The Juilliard School MM, Collaborative Piano{" "}
+              The Juilliard School MM, Collaborative Piano
             </h2>
-            <p className="ml-auto">Master of Music (Year - Year)</p>
+            <p className="ml-auto">Master of Music</p>
           </div>
         </div>
-        <p className="mb-4 p-justify">
+        <p>
           Earned a Master of Music degree in Collaborative Piano from The
           Juilliard School. During my time at Juilliard, I received training and
           mentorship from world-class faculty and had the opportunity to
@@ -50,20 +53,21 @@ const Education = () => {
         </p>
       </div>
       <div className="mb-12">
-        <div className="flex items-start mb-2">
-          <img
+        <div className="flex items-start">
+          <Image
             src="/seoul-national-university-logo.svg"
             alt="Seoul National University"
-            className="h-12 mr-4"
+            width={200}
+            height={200}
           />
           <div className="flex flex-col ml-auto">
             <h2 className="text-xl font-bold">
-              Seoul National University BM, Piano Performance{" "}
+              Seoul National University BM, Piano Performance
             </h2>
-            <p className="ml-auto">Bachelor of Music (Year - Year)</p>
+            <p className="ml-auto">Bachelor of Music</p>
           </div>
         </div>
-        <p className="mb-4 p-justify">
+        <p>
           Obtained a Bachelor of Music degree with a concentration in Piano
           Performance from Seoul National University. Received comprehensive
           training in piano technique, repertoire, and performance skills,

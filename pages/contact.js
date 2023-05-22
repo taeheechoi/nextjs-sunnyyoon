@@ -4,19 +4,17 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">Contact Me</h1>
-      <p className="mb-4">
-        If you have any questions or would like to schedule a lesson, please
-        feel free to get in touch with me.
+      <h1>Contact Me</h1>
+      <p>
+        If you have any questions or would like to discuss your piano lessons,
+        feel free to get in touch with me. I'm here to help!
       </p>
-      <p className="mb-4">
-        You can reach me by phone at (123) 456-7890 or by email at
-        info@example.com.
-      </p>
-      <p className="mb-4">
-        I look forward to hearing from you and helping you on your musical
-        journey!
-      </p>
+      <div className="mt-8">
+        <h3>Sun Ha Yoon</h3>
+        <p>Email: sunhayoon@example.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Location: New York, USA</p>
+      </div>
     </div>
   );
 };

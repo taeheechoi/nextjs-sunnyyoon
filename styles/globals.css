@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #25476d;
-  --accent-color: #ffd700;
+  --primary-color: #122241;
+  --secondary-color: #293243;
+  --accent-color: #ff6600;
   --neutral-color: #f8f8f8;
 }
 
@@ -22,19 +23,20 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
   color: var(--primary-color);
+  padding-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--primary-color);
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.25rem;
   font-weight: bold;
   color: var(--primary-color);
 }
@@ -42,11 +44,13 @@ h3 {
 p {
   margin-bottom: 1rem;
   line-height: 1.5;
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: justify;
 }
 
-.p-justify {
-  text-align: justify;
+img {
+  float: left;
+  margin-right: 0.75rem;
 }
 
 .hr-dots {

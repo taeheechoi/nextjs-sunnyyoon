@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaMusic } from "react-icons/fa";
+import Image from "next/image";
 
 const Main = () => {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
@@ -31,7 +32,7 @@ const Main = () => {
         {navItem}
         {navItem === selectedNavItem && (
           <span className="mt-1">
-            <FaMusic />
+            <FaMusic style={{ color: "#ff6600" }} />
           </span>
         )}
       </div>
@@ -67,20 +68,14 @@ const Main = () => {
           </li>
           <li>
             <Link href="#philosophy">
-              <span
-                // style={navItemStyles("philosophy")}
-                onClick={() => handleNavItemClick("philosophy")}
-              >
+              <span onClick={() => handleNavItemClick("philosophy")}>
                 {getNavItemContent("philosophy")}
               </span>
             </Link>
           </li>
           <li>
             <Link href="#contact">
-              <span
-                // style={navItemStyles("contact")}
-                onClick={() => handleNavItemClick("contact")}
-              >
+              <span onClick={() => handleNavItemClick("contact")}>
                 {getNavItemContent("contact")}
               </span>
             </Link>
@@ -95,28 +90,30 @@ const Main = () => {
           Scroll to Top
         </button>
       )}
-      <img src="piano.jpg" alt="Piano" className="w-full mb-8" />
-      <h1 className="text-3xl font-bold mb-4">Welcome to Piano Lessons</h1>
-      <p className="mb-4 p-justify">
+
+      <h1>Welcome to Piano Lessons</h1>
+      <Image src="/piano.jpg" alt="Piano" width={300} height={500} />
+
+      <p>
         Are you an experienced pianist looking to take your skills to the next
         level? As an experienced educator from prestigious colleges, I'm here to
         guide you on your piano journey and help you unlock your full musical
         potential.
       </p>
-      <p className="mb-4 p-justify">
+      <p>
         With my extensive background in education and passion for music, I
         specialize in providing personalized lessons tailored to your specific
         needs and goals. Whether you're interested in refining your technique,
         delving into advanced musical concepts, or exploring new genres and
         styles, I'll create a customized learning plan just for you.
       </p>
-      <p className="mb-4 p-justify">
+      <p>
         Together, we'll focus on honing your technique, developing your
         musicality, and expanding your repertoire. I'll provide expert guidance,
         support, and constructive feedback to help you progress and achieve your
         musical aspirations.
       </p>
-      <p className="mb-4 p-justify">
+      <p>
         Embark on this exciting musical journey with a dedicated college
         educator by your side! I'm eager to share my knowledge and expertise
         with you and assist you in discovering the joy of playing and
