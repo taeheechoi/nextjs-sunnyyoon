@@ -75,7 +75,6 @@ const Education = () => {
           providing a strong foundation for my musical journey.
         </p>
       </div>
-      {/* <hr className="hr-dots-dashed my-4 w-full" /> */}
     </div>
   );
 };
