@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #122241;
+  --primary-color: #000000;
   --secondary-color: #293243;
-  --accent-color: #ff6600;
+  --accent-color: #98180f;
   --neutral-color: #f8f8f8;
 }
 
@@ -25,7 +25,7 @@ body {
 h1 {
   font-size: 1.75rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 h2 {
@@ -64,4 +64,18 @@ img {
 
 .hr-dots-dashed {
   border-top: 1px dashed var(--accent-color); /* Use a dashed line for line break */
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.nav-item {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--primary-color);
+  opacity: 70%;
 }

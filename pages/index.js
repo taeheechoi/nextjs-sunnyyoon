@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <div className="container">
       <NavBar />
-      {/* <section id="about"> */}
-      <About />
-      {/* </section> */}
+      <section id="about">
+        <About />
+      </section>
       <section id="education">
         <Education />
       </section>
