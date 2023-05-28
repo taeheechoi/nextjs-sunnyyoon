@@ -55,7 +55,7 @@ const NavBar = () => {
             SUN HA YOON
           </Link>
         </div>
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-3">
           <li>
             <Link href="#education" className="nav-item">
               <span onClick={() => handleNavItemClick("education")}>
