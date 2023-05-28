@@ -32,8 +32,8 @@ const Education = () => {
           className="svg black"
           src="/juilliard-school-logo.png"
           alt="The Juilliard School"
-          width={200}
-          height={200}
+          width={180}
+          height={150}
         />
         <div className="flex flex-col ml-auto">
           <h2>The Juilliard School MM, Collaborative Piano</h2>
