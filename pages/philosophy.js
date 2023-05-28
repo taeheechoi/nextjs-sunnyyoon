@@ -2,7 +2,7 @@ import React from "react";
 
 const Philosophy = () => {
   return (
-    <div>
+    <div className="page-container">
       <h1>Teaching Philosophy</h1>
       <hr className="hr-dots w-full" />
       <p className="mb-4 p-justify">
@@ -17,7 +17,7 @@ const Philosophy = () => {
       </p>
       <ul className="list-disc pl-6 mb-4">
         <li className="mb-2">
-          <h3 className="text-lg font-bold">Individualized Instruction</h3>
+          <h2 className="text-lg font-bold">Individualized Instruction</h2>
           <p className="mb-4 p-justify">
             Every student is unique, with different aspirations, learning
             styles, and musical backgrounds. I tailor my lessons to meet the
@@ -29,7 +29,7 @@ const Philosophy = () => {
           </p>
         </li>
         <li className="mb-2">
-          <h3 className="text-lg font-bold">Technical Mastery</h3>
+          <h2 className="text-lg font-bold">Technical Mastery</h2>
           <p className="mb-4 p-justify">
             I believe in building a strong foundation of technical skills, which
             serves as the bedrock for artistic expression. With expertise as a
@@ -40,7 +40,7 @@ const Philosophy = () => {
           </p>
         </li>
         <li className="mb-2">
-          <h3 className="text-lg font-bold">Artistic Interpretation</h3>
+          <h2 className="text-lg font-bold">Artistic Interpretation</h2>
           <p className="mb-4 p-justify">
             Music is an art form that transcends technicality. Drawing from my
             experiences as an Adler Fellow and Vocal Coach at San Francisco
@@ -53,7 +53,7 @@ const Philosophy = () => {
           </p>
         </li>
         <li className="mb-2">
-          <h3 className="text-lg font-bold">Musical Understanding</h3>
+          <h2 className="text-lg font-bold">Musical Understanding</h2>
           <p className="mb-4 p-justify">
             A comprehensive understanding of music theory is crucial for
             musicianship. Building upon my experience as a Music Staff, Vocal
@@ -65,7 +65,7 @@ const Philosophy = () => {
           </p>
         </li>
         <li className="mb-2">
-          <h3 className="text-lg font-bold">Inspiring Creativity</h3>
+          <h2 className="text-lg font-bold">Inspiring Creativity</h2>
           <p className="mb-4 p-justify">
             I foster an environment that nurtures creativity and encourages
             students to explore their musical potential. As a Faculty member at

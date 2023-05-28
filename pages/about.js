@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div>
+    <div className="page-container">
       {/* <h1>About Me</h1> */}
 
       <Image
