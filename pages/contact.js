@@ -8,7 +8,7 @@ const Contact = () => {
       <hr className="hr-dots w-full" />
       <p>
         If you have any questions or would like to discuss your piano lessons,
-        feel free to get in touch with me. I&aposm here to help!
+        feel free to get in touch with me. I&apos;m here to help!
       </p>
       <div className="mt-8">
         <h3>Sun Ha Yoon</h3>

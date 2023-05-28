@@ -19,9 +19,9 @@ const About = () => {
         }}
       />
       <p>
-        Hi, I&aposm Sun Ha Yoon, a passionate pianist and experienced piano
+        Hi, I&apos;m Sun Ha Yoon, a passionate pianist and experienced piano
         teacher based in the Bay Area. With over 10 years of teaching
-        experience, I&aposm dedicated to helping students of all levels unlock
+        experience, I&apos;m dedicated to helping students of all levels unlock
         their musical potential and achieve their goals.
       </p>
       <p>
@@ -50,13 +50,13 @@ const About = () => {
       <p>
         I am passionate about sharing my love for music and helping students
         develop their technical skills, artistic expression, and musical
-        interpretation. My teaching approach is tailored to each student&aposs
+        interpretation. My teaching approach is tailored to each student&apos;s
         unique needs and goals, and I believe in creating a positive and
         supportive learning environment.
       </p>
       <p>
-        If you&aposre interested in taking piano lessons or have any questions,
-        please don&apost hesitate to contact me. I&aposm excited to embark on
+        If you&apos;re interested in taking piano lessons or have any questions,
+        please don&apos;t hesitate to contact me. I&apos;m excited to embark on
         this musical journey with you and help you discover the joy of playing
         the piano.
       </p>
