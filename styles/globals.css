@@ -76,3 +76,7 @@ img {
   font-weight: 800;
   color: var(--primary-color);
 }
+
+.black {
+  filter: brightness(0) invert(0);
+}

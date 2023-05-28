@@ -8,6 +8,7 @@ const Education = () => {
       <hr className="hr-dots w-full" />
       <div className="flex items-start">
         <Image
+          className="svg black"
           src="/university-of-maryland-logo.svg"
           alt="University of Maryland"
           width={200}
@@ -28,6 +29,7 @@ const Education = () => {
       </p>
       <div className="flex items-start">
         <Image
+          className="svg black"
           src="/juilliard-school-logo.png"
           alt="The Juilliard School"
           width={200}
@@ -48,6 +50,7 @@ const Education = () => {
 
       <div className="flex items-start">
         <Image
+          className="svg black"
           src="/seoul-national-university-logo.svg"
           alt="Seoul National University"
           width={200}

@@ -49,7 +49,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <nav className="flex justify-between items-center mb-8">
+      <nav className="flex justify-between items-center mb-3">
         <div className="logo">
           <Link href="/" onClick={handleLogoClick}>
             SUN HA YOON

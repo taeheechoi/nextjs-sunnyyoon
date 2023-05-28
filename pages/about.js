@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="page-container">
       {/* <h1>About Me</h1> */}
-
+      <hr className="hr-dots w-full" />
       <Image
         src="/profile.png"
         alt="Profile Picture"
