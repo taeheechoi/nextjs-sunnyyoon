@@ -25,19 +25,19 @@ body {
 h1 {
   font-size: 1.75rem;
   font-weight: bold;
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 p {
