@@ -15,8 +15,8 @@ const Education = () => {
           height={200}
         />
         <div className="flex flex-col ml-auto">
-          <h2>University of Maryland DMA, Collaborative Piano</h2>
-          <p className="ml-auto">Doctor of Musical Arts</p>
+          <h2 className="ml-auto">University of Maryland</h2>
+          <p className="ml-auto">Collaborative Piano, Doctor of Musical Arts</p>
         </div>
       </div>
       <p className="mb-8">
@@ -32,12 +32,12 @@ const Education = () => {
           className="svg black"
           src="/juilliard-school-logo.png"
           alt="The Juilliard School"
-          width={180}
+          width={170}
           height={150}
         />
         <div className="flex flex-col ml-auto">
-          <h2>The Juilliard School MM, Collaborative Piano</h2>
-          <p className="ml-auto">Master of Music</p>
+          <h2 className="ml-auto">The Juilliard School</h2>
+          <p className="ml-auto">Collaborative Piano, Master of Music</p>
         </div>
       </div>
       <p className="mb-8">
@@ -57,8 +57,8 @@ const Education = () => {
           height={200}
         />
         <div className="flex flex-col ml-auto">
-          <h2>Seoul National University BM, Piano Performance</h2>
-          <p className="ml-auto">Bachelor of Music</p>
+          <h2 className="ml-auto">Seoul National University</h2>
+          <p className="ml-auto">Piano Performance, Bachelor of Music</p>
         </div>
       </div>
       <p>
