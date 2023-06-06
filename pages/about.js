@@ -1,25 +1,22 @@
-import React from "react";
 import Image from "next/image";
+import profileImage from "../public/Profile.png";
 
 const About = () => {
   return (
-    <div className="page-container">
-      <hr className="hr-dots w-full" />
-      <div className="image-container">
-        <Image
-          src="/profile.png"
-          alt="Profile Picture"
-          width={300}
-          height={500}
-          style={{
-            border: "2px solid #ccc", // Add a border
-            borderRadius: "10px", // Add rounded corners
-            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", // Add a box shadow
-            // Add any other desired styles
-          }}
-        />
-      </div>
-      <div className="content">
+    <div>
+      <Image
+        src={profileImage}
+        alt="Profile Picture"
+        className="float-left mr-2"
+        style={{
+          border: "2px solid #ccc", // Add a border
+          borderRadius: "10px", // Add rounded corners
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", // Add a box shadow
+        }}
+        width={300}
+        height={500}
+      />
+      <div>
         <p>
           Hi, I&apos;m Sun Ha Yoon, a passionate pianist and experienced piano
           teacher based in the Bay Area. With over 10 years of teaching

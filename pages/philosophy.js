@@ -2,9 +2,8 @@ import React from "react";
 
 const Philosophy = () => {
   return (
-    <div className="page-container">
-      <h1>Teaching Philosophy</h1>
-      <hr className="hr-dots w-full" />
+    <div>
+      <hr />
       <p className="mb-4 p-justify">
         At Piano Professional, my mission is to provide exceptional piano
         education that empowers students to achieve their musical goals and

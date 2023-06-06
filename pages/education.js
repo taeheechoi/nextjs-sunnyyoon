@@ -1,15 +1,15 @@
 import Image from "next/image";
-import React from "react";
+import maryland from "../public/university-of-maryland-logo.svg";
+import seoul from "../public/seoul-national-university-logo.svg";
+import juilliard from "../public/juilliard-school-logo.png";
 
 const Education = () => {
   return (
-    <div className="page-container">
-      <h1>Education</h1>
-      <hr className="hr-dots w-full" />
+    <div>
       <div className="flex items-start">
         <Image
-          className="svg black"
-          src="/university-of-maryland-logo.svg"
+          className="filter brightness-0 invert-0"
+          src={maryland}
           alt="University of Maryland"
           width={200}
           height={200}
@@ -29,8 +29,8 @@ const Education = () => {
       </p>
       <div className="flex items-start">
         <Image
-          className="svg black"
-          src="/juilliard-school-logo.png"
+          className="filter brightness-0 invert-0"
+          src={juilliard}
           alt="The Juilliard School"
           width={170}
           height={150}
@@ -50,8 +50,8 @@ const Education = () => {
 
       <div className="flex items-start">
         <Image
-          className="svg black"
-          src="/seoul-national-university-logo.svg"
+          className="filter brightness-0 invert-0"
+          src={seoul}
           alt="Seoul National University"
           width={200}
           height={200}
