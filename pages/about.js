@@ -7,7 +7,7 @@ const About = () => {
       <Image
         src={profileImage}
         alt="Profile Picture"
-        className="float-left mr-2"
+        className="float-left mr-4"
         style={{
           border: "2px solid #ccc", // Add a border
           borderRadius: "10px", // Add rounded corners

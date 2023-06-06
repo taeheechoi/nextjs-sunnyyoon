@@ -3,7 +3,6 @@ import React from "react";
 const Philosophy = () => {
   return (
     <div>
-      <hr />
       <p className="mb-4 p-justify">
         At Piano Professional, my mission is to provide exceptional piano
         education that empowers students to achieve their musical goals and

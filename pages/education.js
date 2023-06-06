@@ -16,7 +16,7 @@ const Education = () => {
         />
         <div className="flex flex-col ml-auto">
           <h2 className="ml-auto">University of Maryland</h2>
-          <p className="ml-auto">Collaborative Piano, Doctor of Musical Arts</p>
+          <p className="ml-auto">Doctor of Musical Arts</p>
         </div>
       </div>
       <p className="mb-8">
@@ -37,7 +37,7 @@ const Education = () => {
         />
         <div className="flex flex-col ml-auto">
           <h2 className="ml-auto">The Juilliard School</h2>
-          <p className="ml-auto">Collaborative Piano, Master of Music</p>
+          <p className="ml-auto">Master of Music</p>
         </div>
       </div>
       <p className="mb-8">
@@ -58,7 +58,7 @@ const Education = () => {
         />
         <div className="flex flex-col ml-auto">
           <h2 className="ml-auto">Seoul National University</h2>
-          <p className="ml-auto">Piano Performance, Bachelor of Music</p>
+          <p className="ml-auto">Bachelor of Music</p>
         </div>
       </div>
       <p>
